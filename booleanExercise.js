@@ -1,17 +1,17 @@
-var markWeight = 89
-var johnWeight = 94
+var markWeight = 89;
+var johnWeight = 94;
 
-var markHeight = 1.8
-var johnHeight = 2.1
+var markHeight = 1.8;
+var johnHeight = 2.1;
 
 markBmi = markWeight / (markHeight * markHeight);
 console.log(markBmi);
 johnBmi = johnWeight / (johnHeight * johnHeight);
 console.log(johnBmi);
 
- var markHigherBmi = markBmi > johnBmi
- var markHeavier = markWeight > johnWeight
- var markTaller = markHeight > johnHeight
+ var markHigherBmi = markBmi > johnBmi;
+ var markHeavier = markWeight > johnWeight;
+ var markTaller = markHeight > johnHeight;
 
  console.log('Does Mark have a higher BMI? ' + markHigherBmi + '. Is Mark heavier than John? ' + markHeavier + '. Is Mark taller than John? ' + markTaller + '.');
 
