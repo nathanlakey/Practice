@@ -29,9 +29,9 @@ var maryAvg = total/maryScore.length;
 
 if (johnAvg > mikeAvg & johnAvg > maryAvg){
     console.log('John has the highest average with ' + johnAvg + ' points!!!')
-} else if (mikeAvg > maryAvg & mikeAvg > johnAvg){
+} else if (mikeAvg > maryAvg && mikeAvg > johnAvg){
     console.log('Mike has the highest average with ' + mikeAvg + ' points!!!')
-} else if (maryAvg > mikeAvg & maryAvg > johnAvg){
+} else if (maryAvg > mikeAvg && maryAvg > johnAvg){
     console.log('Mary has the highest average with ' + maryAvg + ' points!!!')
 } else {
     console.log('Mike, John, and Mary have tied with the average score of ' + johnAvg + ' points!')
