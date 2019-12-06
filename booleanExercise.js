@@ -40,10 +40,7 @@ var mark = {
     }
 };
 
-john.calcBmi();
-mark.calcBmi();
-
-if (mark.bmi > john.bmi) {
+if (mark.calcBmi > john.calcBmi) {
     console.log(mark.fullName + ' has the highest BMI with ' + mark.bmi + '!!!')
 } else if (john.bmi > mark.bmi) {
     console.log(john.fullName + ' has the highest BMI with ' + john.bmi + '!!!')
