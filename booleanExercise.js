@@ -40,6 +40,9 @@ var mark = {
     }
 };
 
+mark.calcBmi();
+john.calcBmi();
+
 if (mark.calcBmi > john.calcBmi) {
     console.log(mark.fullName + ' has the highest BMI with ' + mark.bmi + '!!!')
 } else if (john.bmi > mark.bmi) {
