@@ -1,8 +1,8 @@
 var numbers = [];
-
 for (i = 1; i <= 10; i++) {
-    console.log(i)
+    numbers.push(i);
 };
+console.log(numbers);
 
 // string variable if its between 0-5 char say its a small string. if between 6-15 make it a medium everything else is a large
 
